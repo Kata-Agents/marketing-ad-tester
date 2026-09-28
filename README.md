@@ -43,13 +43,13 @@ dangling clause.
 ## Part of a department
 
 This agent is one member of the **marketing video ad** department, a
-hub-orchestrator team of 7. The hub is `marketing-campaign-scoper`, which locks the brief every later
+hub-orchestrator team of 7. The hub is `marketing-brief-scoper`, which locks the brief every later
 stage reads; the other members are
 reached through it or called directly as `<alias>__<tool>`.
 
 | Agent | Stage in the pipeline |
 |---|---|
-| `marketing-campaign-scoper` | 1 — interviews for the brief and freezes it (department hub) |
+| `marketing-brief-scoper` | 1 — interviews for the brief and freezes it (department hub) |
 | `marketing-ad-researcher` | 2 — competitor harvest plan, longevity ranking, customer voice, coverage |
 | `marketing-angle-strategist` | 3 — scored angle map with auditable arithmetic |
 | `marketing-hook-writer` | 4 — the modular creative bank, built on verbatim customer language |
